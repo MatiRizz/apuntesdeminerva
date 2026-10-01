@@ -9,22 +9,13 @@ Archivo de los textos de filosofía y filosofía del derecho que escribí durant
 
 ## Qué hay
 
-Dieciséis textos escritos entre 2018 y 2024, entre monografías y trabajos prácticos de la Licenciatura en Filosofía (UNSAM) y la Maestría en Filosofía del Derecho (UBA). Están ordenados en seis estaciones temáticas que van de Pitágoras a la inteligencia artificial.
-
-| Estación | Textos |
-|---|---|
-| **I. Donde todo es número**<br>*mística, cosmos y armonía en los orígenes griegos* | Las dimensiones onto-teológicas del número en Pitágoras (2019)<br>Pitágoras, el chamanismo griego y la inspiración profética y poética (2021) |
-| **II. Las escaleras del saber**<br>*de la imaginación a la intuición* | Los tres géneros de conocimiento en Spinoza (2018)<br>Racionalismo contemplativo: atención, reflexión y conocimiento en la filosofía de Leibniz (2019) |
-| **III. Materia e idea**<br>*¿existe la mesa cuando nadie la mira?* | El inmaterialismo de Berkeley (2018)<br>Kant: el cuarto paralogismo de la idealidad, Berkeley y Descartes (2018)<br>El materialismo como punto de partida para la construcción del conocimiento (2023) |
-| **IV. El tiempo y el espíritu**<br>*del instante eterno a la marcha de la historia* | El presente como modelo agustiniano de la eternidad (2020)<br>El discurrir histórico en la *Scienza Nuova* de Giambattista Vico (2022)<br>La certeza sensible en la *Fenomenología del espíritu* (2019) |
-| **V. La norma y sus silencios**<br>*qué es el derecho, dónde calla y cómo nos empuja* | Fundamentos epistemológicos en la teoría pura del derecho de Kelsen (2023)<br>El problema de las lagunas en el derecho (2024)<br>*Nudges*, arquitectura de la decisión y el caso de la donación de órganos (2024) |
-| **VI. Mentes de silicio**<br>*¿puede una máquina juzgar lo bello o lo justo?* | Antecedentes de la crítica del discernimiento en Hume (2022)<br>Los juicios estéticos y la Inteligencia Artificial (2022)<br>Sobre la posibilidad de estrategias metodológicas y modelización de sistemas de Inteligencia Artificial aplicados al derecho (2024) |
+Varios textos escritos entre 2018 y 2024, entre monografías y trabajos prácticos de la Licenciatura en Filosofía (UNSAM) y la Maestría en Filosofía del Derecho (UBA). Están ordenados en seis estaciones temáticas que van de Pitágoras a la inteligencia artificial.
 
 Los textos se publican casi como fueron entregados: se corrigieron erratas, tildes y el formato de algunas citas, sin tocar los argumentos.
 
 ## Cómo está hecho
 
-El sitio es un único `index.html` con HTML, CSS y JavaScript escritos a mano, sin frameworks, sin dependencias y sin paso de compilación. Lo único externo son las tipografías de Google Fonts: Fraunces, Newsreader, Courier Prime y Caveat.
+El sitio es un único `index.html` con HTML, CSS y JavaScript, sin frameworks, sin dependencias y sin paso de compilación. Lo único externo son las tipografías de Google Fonts: Fraunces, Newsreader, Courier Prime y Caveat.
 
 - Los textos viven en un bloque oculto dentro del mismo HTML (`<div id="archivo">`). Al cargar la página, el script los lee y arma las fichas de cada estación, el índice, el lector, los contadores y los tiempos de lectura.
 - La navegación usa rutas en el hash (`#/seccion/…`, `#/texto/…`, `#/indice`), así que cada texto tiene su propio enlace.
